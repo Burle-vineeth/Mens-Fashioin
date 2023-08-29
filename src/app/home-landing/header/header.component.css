@@ -1,0 +1,45 @@
+.main-container {
+    padding: 10px;
+    align-items: center;
+}
+.menu-icon {
+    color: white;
+    cursor: pointer;
+}
+.icon img{
+    width: 50px;
+    margin-left: 20px;
+    rotate: 30deg;
+    cursor: pointer;
+}
+.title {
+    color: white;
+    font-style: oblique;
+    padding: 0px 15px;
+    font-weight: bold;
+    font-size: larger;
+    letter-spacing: 2px;
+}
+.profile {
+    color: white;
+    font-style: oblique;
+    padding: 0px 15px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+.info img {
+    width: 45px;
+    rotate: -20deg;
+    cursor: pointer;
+}
+
+.nav-open {
+    width: 15%;
+}
+.nav-close {
+    width: 85%;
+}
+.nav-full {
+    width: 100%;
+}

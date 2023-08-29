@@ -1,0 +1,10 @@
+<div class="main-container">
+    <div class="logo">
+        <img src="../../../assets/Cool-Model-Man-PNG-Free-Image.png" alt="">
+    </div>
+    <div class="content" id="content">
+        <div [routerLink]="item.link" routerLinkActive="active" class="items" *ngFor="let item of mensFashionArray">
+            {{item.name}}
+        </div>
+    </div>
+</div>

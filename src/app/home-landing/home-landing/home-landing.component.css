@@ -1,0 +1,21 @@
+.nav-open {
+    width: 80% !important;
+}
+
+.left-body {
+    height: 100%;
+    position: sticky;
+    top: 0;
+}
+.header {
+    position: sticky;
+    top: 0;
+}
+
+.nav-opened {
+    width: 20%;
+}
+
+.right-body {
+    width: 100%;
+}

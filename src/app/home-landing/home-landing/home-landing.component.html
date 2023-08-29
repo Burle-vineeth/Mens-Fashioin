@@ -1,0 +1,13 @@
+<div class="main-container d-flex">
+    <div *ngIf="menuClicked" class="left-body nav-opened">
+        <app-side-nav></app-side-nav>
+    </div>
+    <div class="right-body" [ngClass]="{'nav-open': menuClicked}">
+        <div class="header">
+            <app-header (menuClicked)="menuClicked = !menuClicked"></app-header>
+        </div>
+        <div class="body">
+            <router-outlet></router-outlet>
+        </div>
+    </div>
+</div>

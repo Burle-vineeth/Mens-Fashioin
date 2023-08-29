@@ -1,0 +1,33 @@
+.main-container {
+    border-right: 1px solid rgba(209, 207, 207, 0.729);
+}
+
+.logo {
+    text-align: center;
+    padding: 15px 10px;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    box-shadow: 0 0 10px gray;
+}
+.logo img {
+    width: 90%;
+    height: 200px;
+}
+
+.content {
+    height: 500px;
+    overflow-y: scroll;
+}
+.content .items {
+    cursor: pointer;
+    padding: 10px;
+}
+.content .items:hover {
+    text-decoration: underline;
+}
+.active {
+    color: white;
+    background-color: #007BFF;
+    border: 1px solid rgba(199, 199, 199, 0.719);
+}

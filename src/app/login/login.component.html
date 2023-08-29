@@ -1,0 +1,19 @@
+
+<div class="content">
+    <div class="container">
+        <form [formGroup]="loginForm" (ngSubmit)="login()" class="login-form">
+            <h1>Login</h1>
+            <input type="email" placeholder="Email" class="input-field" formControlName="email">
+            <input type="password" placeholder="Password" class="input-field" formControlName="password">
+            <button type="submit" class="login-button" (click)="login()">Login</button>
+            <div class="d-flex">
+                <a routerLink="/" class="forgot-password">Forgot Password?</a>
+                <a routerLink="/signup" class="forgot-password ms-auto">Sign Up?</a>
+            </div>
+        </form>
+        <div class="finance-image">
+            <img src="../../assets/login-image.jpg" alt="Finance Image">
+        </div>
+    </div>
+</div>
+
