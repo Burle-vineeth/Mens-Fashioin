@@ -3,9 +3,9 @@ import { BrowserModule } from'@angular/platform-browser';
 import { AppRoutingModule } from'./app-routing.module';
 import { AppComponent } from'./app.component';
 import { HttpClientModule } from'@angular/common/http';
-import { RegisterComponent } from'./register/register.component';
+import { RegisterComponent } from'./authorization/register/register.component';
 import { ReactiveFormsModule } from'@angular/forms';
-import { LoginComponent } from'./login/login.component';
+import { LoginComponent } from'./authorization/login/login.component';
 import { BrowserAnimationsModule } from'@angular/platform-browser/animations';
 import { MatInputModule } from '@angular/material/input';
 import { MatAutocompleteModule } from '@angular/material/autocomplete';
@@ -35,7 +35,8 @@ import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { MatTableModule } from '@angular/material/table';
 import { MatSortModule } from '@angular/material/sort';
 import { MatPaginatorModule } from '@angular/material/paginator';
-import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { PageNotFoundComponent } from './authorization/page-not-found/page-not-found.component';
+import { ForgotPasswordComponent } from './authorization/forgot-password/forgot-password.component';
 
 @NgModule({
   declarations: [
@@ -43,6 +44,7 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
     RegisterComponent,
     LoginComponent,
     PageNotFoundComponent,
+    ForgotPasswordComponent,
   ],
   imports: [
     BrowserModule,
