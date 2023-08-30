@@ -34,7 +34,9 @@ import { MatTableModule } from '@angular/material/table';
 import { MatSortModule } from '@angular/material/sort';
 import { MatPaginatorModule } from '@angular/material/paginator';
 import { HomeLandingComponent } from './home-landing/home-landing.component';
-import { ExtraComponent } from './extra/extra.component';
+import {MatButtonModule} from '@angular/material/button';
+import {MatRippleModule} from '@angular/material/core';
+import { HomeSectorComponent } from './home-sector/home-sector.component';
 
 
 @NgModule({
@@ -43,7 +45,7 @@ import { ExtraComponent } from './extra/extra.component';
     SideNavComponent,
     HeaderComponent,
     HomeLandingComponent,
-    ExtraComponent,
+    HomeSectorComponent,
   ],
   imports: [
     CommonModule,
@@ -75,7 +77,9 @@ import { ExtraComponent } from './extra/extra.component';
     MatSnackBarModule,
     MatTableModule,
     MatSortModule,
-    MatPaginatorModule
+    MatPaginatorModule,
+    MatButtonModule,
+    MatRippleModule
   ]
 })
 export class HomeLandingModule { }

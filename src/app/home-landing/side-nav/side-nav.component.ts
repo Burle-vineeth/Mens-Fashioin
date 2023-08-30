@@ -51,31 +51,6 @@ export class SideNavComponent {
       name: "Boots",
       link: "boots"
     },
-    {
-      name: "Casual Pants",
-      link: "casual-pants"
-    },
-    {
-      name: "T-Shirts",
-      link: "t-shirts"
-    },
-    {
-      name: "Shoes",
-      link: "shoes"
-    },
-    {
-      name: "Sneakers",
-      link: "sneakers"
-    },
-    {
-      name: "Dress Shoes",
-      link: "dress-shoes"
-    },
-    {
-      name: "Boots",
-      link: "boots"
-    },
-
   ];
   
 }

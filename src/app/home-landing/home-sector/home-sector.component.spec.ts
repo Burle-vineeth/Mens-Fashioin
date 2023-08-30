@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ExtraComponent } from './extra.component';
+import { HomeSectorComponent } from './home-sector.component';
 
-describe('ExtraComponent', () => {
-  let component: ExtraComponent;
-  let fixture: ComponentFixture<ExtraComponent>;
+describe('HomeSectorComponent', () => {
+  let component: HomeSectorComponent;
+  let fixture: ComponentFixture<HomeSectorComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ ExtraComponent ]
+      declarations: [ HomeSectorComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(ExtraComponent);
+    fixture = TestBed.createComponent(HomeSectorComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
